@@ -1,3 +1,33 @@
+# Super Important News app
+
+This is a project I did using React to display some Hacker News items in a more digestible way to the reader.
+
+### Main goals:
+
+1.) Make cards that display the news items withe the titles, website source, poster username, points, and number of hours in the past it was posted. API: https://node-hnapi.herokuapp.com/news
+
+2.) Implement a search field that narrows the search results as the user types.
+
+3.) Write a test that determines if the search field was written properly, if there's time.
+
+### Planning:
+
+March 2, 2019 - First, make a react app with a component that calls the Hacker News API, makes a get request, and returns the results I need.
+
+Then, make a card component that displays this information in a readable way. CSS styling will be needed. Have the cards display on the page.
+
+Make a container component that houses these two components related to the cards.
+
+Make a new component for searching, and one for the search box. Put them in a container component for search.
+
+What I'll need to research/look up:
+How others have called the Hacker News API before using React. Should I use fetch or axios to call it?
+How others have created a dynamic search feature in React.
+Other examples of React Hacker News apps open source to see how they put it together.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

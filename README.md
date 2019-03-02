@@ -12,11 +12,9 @@ This is a project I did using React to display some Hacker News items in a more 
 
 ### Planning:
 
-March 2, 2019 - First, make a react app with a component that calls the Hacker News API, makes a get request, and returns the results I need.
+March 2, 2019 - First, make a react app with a component that calls the Hacker News API, makes a get request, and returns the results I need. This will be my container component.
 
 Then, make a card component that displays this information in a readable way. CSS styling will be needed. Have the cards display on the page.
-
-Make a container component that houses these two components related to the cards.
 
 Make a new component for searching, and one for the search box. Put them in a container component for search.
 

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
-// import NewsSearchContainer from './containers/NewsSearchContainer'
+import GetNews from './components/GetNews'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <GetNews />
           <p>
             Working
           </p>
@@ -20,6 +21,8 @@ class App extends Component {
             Emily
           </a>
         </header>
+
+
       </div>
     );
   }

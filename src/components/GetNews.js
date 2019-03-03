@@ -12,6 +12,7 @@ class GetNews extends Component {
   render() {
     return(
       <div>
+
         <h1>News:</h1>
         {this.state.items.map(item =>
           <div className="cardborder">

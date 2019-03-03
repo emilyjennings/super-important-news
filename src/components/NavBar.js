@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-const NavBar = props => {
-  console.log(props);
+const NavBar = () => {
+
   return (
     <div className="navbar">
       <div className="title">Hacker News</div>

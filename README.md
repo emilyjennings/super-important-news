@@ -2,6 +2,10 @@
 
 This is a project I did using React to display some Hacker News items in a more digestible way to the reader.
 
+### Background and message to LiveSafe
+
+When making this app, I had only started to learn React about a month beforehand. I had yet to make a complete React app of my own yet, so this is my first React app from scratch. Since I was given an assignment in Angular which I had never seen before, I spent a few hours looking at the assignment and its file structure, syntax, reading Angular documentation - and came to terms with the fact that I would not be able to complete the assignment without ample time to learn Angular from scratch (which I am excited to do, but not in this context where a quick turnaround is necessary). I then decided that the best thing I could turn out was this React version I built from scratch. It's by no means perfect, but I had fun learning by doing it, and using my CSS styling skills to make it look nice. 
+
 ### Main goals:
 
 1.) Make cards that display the news items withe the titles, website source, poster username, points, and number of hours in the past it was posted. API: https://node-hnapi.herokuapp.com/news

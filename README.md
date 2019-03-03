@@ -25,6 +25,11 @@ How others have called the Hacker News API before using React. Should I use fetc
 How others have created a dynamic search feature in React.
 Other examples of React Hacker News apps open source to see how they put it together.
 
+### Problems Encountered and Solutions
+
+I had trouble getting the React app to be structured with a container component at first. After looking at other repos with container components and unsuccessfully trying to make mine work, I decided to start with the basics and just make the app output what I wanted to using a less complex structure but with a less organized structure. My plan would be to go back later and refactor to learn how to successfully make a container component.
+
+I used ajax but I want to be able to call the API with either fetch or axios, and this would be part of the refactoring process as well. Again, my goal was to get this going as fast as possible.
 
 
 

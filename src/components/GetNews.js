@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 
+//This includes what I would later like to refactor into being a car component
 
 
 class GetNews extends Component {
@@ -12,14 +13,13 @@ class GetNews extends Component {
   render() {
     return(
       <div>
-        <h1>News:</h1>
         {this.state.items.map(item =>
           <div className="cardborder">
-            <h2>{item.title}</h2>
-            <p>{item.points}</p>
-            <p>by {item.user}</p>
-            <p>{item.time_ago} ago</p>
-            <p>comments: {item.comments_count}</p>
+            <div className="title">{item.title}</div>
+            <div className="points">{item.points} Points</div>
+            <div className="user">by {item.user}</div>
+            <div className="time_ago">{item.time_ago} ago</div>
+            <div className="comments">comments: {item.comments_count}</div>
           </div>
         )}
 

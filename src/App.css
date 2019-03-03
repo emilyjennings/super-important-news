@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: #F0F5F9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,13 +20,50 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #057E6A;
 }
 
 .cardborder {
-  border: 6px solid #DEE1E3;
+  background: white;
+  box-shadow: 3px 4px 4px 3px #DEE1E3;
   padding: 10px;
   margin: 20px;
+}
+
+.navbar {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  background-image: linear-gradient(#04CF94, #73FAD5);
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.title {
+  padding: 15px;
+  font-size: 40px;
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  padding: 25px;
+  height: 100%;
+}
+
+a {
+  color: #057E6A;
+}
+
+a:hover {
+  color: #1FB9A9;
 }
 
 @keyframes App-logo-spin {

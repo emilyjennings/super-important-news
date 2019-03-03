@@ -15,11 +15,15 @@ class GetNews extends Component {
       <div>
         {this.state.items.map(item =>
           <div className="cardborder">
-            <div className="title">{item.title}</div>
-            <div className="points">{item.points} Points</div>
-            <div className="user">by {item.user}</div>
-            <div className="time_ago">{item.time_ago} ago</div>
-            <div className="comments">comments: {item.comments_count}</div>
+            <div className="leftbox">
+              <div className="itemtitle">{item.title}</div>
+              <div className="points">{item.points} Points</div>
+              <div className="user">by {item.user}</div>
+              <div className="time_ago">{item.time_ago} ago</div>
+            </div>
+            <div className="commentbox">
+              <div className="comments">comments: {item.comments_count}</div>
+            </div>
           </div>
         )}
 

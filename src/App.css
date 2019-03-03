@@ -28,7 +28,8 @@
   background: white;
   box-shadow: 3px 4px 4px 3px #DEE1E3;
   padding: 10px;
-  margin: 20px;
+  margin: 40px;
+
 }
 
 .navbar {
@@ -65,6 +66,19 @@ a {
 
 a:hover {
   color: #1FB9A9;
+}
+
+.commentbox {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  float: right;
+}
+
+.leftbox {
+  display: block;
+  width: 70%;
+
 }
 
 @keyframes App-logo-spin {

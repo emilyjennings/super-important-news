@@ -9,16 +9,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <GetNews />
-          <p>
-            Working
-          </p>
+
+
+
           <a
             className="App-link"
             href="https://emilyjennings.github.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Emily
+            Made by Emily from scratch
           </a>
         </header>
 

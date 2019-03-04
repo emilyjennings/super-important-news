@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+// Just the header bar component - static
 const NavBar = () => {
 
   return (

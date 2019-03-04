@@ -45,7 +45,6 @@
 }
 
 .title {
-  font-size: 1em;
   display: block;
   float: left;
   width: 50%;
@@ -61,6 +60,7 @@
 
 a {
   color: #057E6A;
+  text-decoration: none;
 }
 
 a:hover {
@@ -76,12 +76,14 @@ a:hover {
 }
 
 .comments {
-  margin-top: 50px;
-  font-size: .7em;
-  margin-bottom: 25%;
-  margin-left: 10%;
-  margin-right: 10%;
+  position: relative;
+  width: 80%;
+  margin-top: 48px;
   color: #4A5050;
+}
+
+.comments a {
+  text-decoration: none;
 }
 
 .leftbox {
@@ -140,6 +142,14 @@ input {
 
 .searchtitle {
   font-size: 20px;
+}
+
+.commentimg {
+  position: absolute;
+  margin-top: 33px;
+  width: 80%;
+  top: 0;
+  left: 0;
 }
 
 @keyframes App-logo-spin {

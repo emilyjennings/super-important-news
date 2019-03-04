@@ -7,7 +7,7 @@ class Search extends Component {
 
   handleSubmit = event => {
     event.preventDefault()
-    this.props.fetchNews(this.state.query)
+
   }
 
   render() {

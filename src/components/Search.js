@@ -5,19 +5,13 @@ class Search extends Component {
     query: ""
   }
 
-  handleSubmit = event => {
-    event.preventDefault()
-
-  }
 
   render() {
     return (
       <div>
         <h1 class="searchtitle">Search:</h1>
-        <form onSubmit={this.handleSubmit} IdName="searchform">
           <input type="text" value={this.state.query} onChange={event => this.setState({query: event.target.value})} />
-        </form>
-
+          {this.state.query}
       </div>
     )
   }

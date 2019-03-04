@@ -2,6 +2,10 @@
 
 This is a project I did using React to display some Hacker News items in a more digestible way to the reader.
 
+### Background and message to LiveSafe
+
+When making this app, I had only started to learn React about a month beforehand, though my knowledge of JavaScript in general is stronger. I had yet to make a complete React app of my own yet, so this is my first React app from scratch. Since I was given an assignment in Angular which I had never seen before, I spent a few hours looking at the assignment and its file structure, syntax, reading Angular documentation - and came to terms with the fact that I would not be able to complete the assignment without ample time to learn Angular from scratch (which I am excited to do, but not in this context where a quick turnaround is necessary). I then decided that the best thing I could turn out for you instead was this React version of the same assignment, which I built from scratch. It's by no means perfect, but I had fun making it and learning by doing it. I hope you'll accept it.
+
 ### Main goals:
 
 1.) Make cards that display the news items withe the titles, website source, poster username, points, and number of hours in the past it was posted. API: https://node-hnapi.herokuapp.com/news
@@ -10,20 +14,26 @@ This is a project I did using React to display some Hacker News items in a more 
 
 3.) Write a test that determines if the search field was written properly, if there's time.
 
-### Planning:
+### Planning and What I'd Do With More Time:
 
-March 2, 2019 - First, make a react app with a component that calls the Hacker News API, makes a get request, and returns the results I need.
+March 2, 2019 - First, I'll make a react app with a component that calls the Hacker News API, makes a get request, and returns the results I need.
 
-Then, make a card component that displays this information in a readable way. CSS styling will be needed. Have the cards display on the page.
+Then, I'll make a card component that displays this information in a readable way. CSS styling will be needed. Have the cards display on the page.
 
 Make a container component that houses these two components related to the cards.
 
 Make a new component for searching, and one for the search box. Put them in a container component for search.
 
 What I'll need to research/look up:
-How others have called the Hacker News API before using React. Should I use fetch or axios to call it?
+How others have called the Hacker News API before using React. Should I use fetch, ajax, or axios to call it?
 How others have created a dynamic search feature in React.
-Other examples of React Hacker News apps open source to see how they put it together.
+Other examples of React Hacker News apps/Stack Overflow posts to see how they put it together.
+
+March 3, 2019 - I worked on the styling of the cards and started trying to make the search bar. I tried many things by reading documentation and projects/questions others have written, but I just needed more time to make a functional searchbar. I was able to find an API that lets more searches happen as options, but it doesn't have all the results I needed to create the cards in the mockup given - https://hn.algolia.com/api. i did at one point have a functional search bar using that API instead, but couldn't keep that in my project because of the card display elements needed.
+
+I believe that I needed more knowledge and practice with React props. I think this week I'll make the search bar that narrows the results by typing, but I wasn't able to do it yet. I need to read more about real time updates. I know in vanilla JS it would just be detecting the value of the search text field but I am not sure about doing that in React.
+
+With more time, I'd also research how tests are written in React - I've seen them in JavaScript before - and write a test to see if the search feature works.
 
 ### Problems Encountered and Solutions
 

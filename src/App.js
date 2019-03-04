@@ -1,27 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import GetNews from './components/GetNews'
+import AppContainer from './components/AppContainer'
+
+//this is the root component for this App. It loads the App Container component where all the other components are traced to.
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <GetNews />
-
-
-
-          <a
-            className="App-link"
-            href="https://emilyjennings.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Made by Emily from scratch
-          </a>
+          <AppContainer />
         </header>
-
 
       </div>
     );

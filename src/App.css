@@ -1,15 +1,12 @@
 .App {
   text-align: center;
+  margin-top: 80px;
+  color: #4A5050;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .App-header {
-  background-color: white;
+  background-color: #F0F5F9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,13 +17,140 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #057E6A;
 }
 
 .cardborder {
-  border: 6px solid #DEE1E3;
-  padding: 10px;
-  margin: 20px;
+  display: block;
+  height: 200px;
+  background: white;
+  box-shadow: 3px 4px 4px 3px #DEE1E3;
+  margin: 30px auto;
+  width: 60%;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.navbar {
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(#04CF94, #73FAD5);
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  z-index: 1;
+  padding: 30px
+}
+
+.title {
+  display: block;
+  float: left;
+  width: 50%;
+  color: #4A5050;
+}
+
+.navbar a {
+  font-size: 0.7em;
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+a {
+  color: #057E6A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1FB9A9;
+}
+
+.commentbox {
+  display: block;
+  position: relative;
+  width: 20%;
+  float: left;
+  margin: auto;
+}
+
+.comments {
+  position: relative;
+  width: 80%;
+  margin-top: 48px;
+  color: #4A5050;
+}
+
+.comments a {
+  text-decoration: none;
+}
+
+.leftbox {
+  display: block;
+  position: relative;
+  width: 80%;
+  float: left;
+}
+
+.itemtitle, .points, .user_time, .url {
+  margin-left: 5%;
+  margin-right: 5%;
+
+  width: 80%;
+  color: #5C6464;
+  text-align: left;
+}
+
+.itemtitle {
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 2%;
+}
+
+.user_time {
+  font-size: .9em;
+}
+
+.url {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.points {
+  display: inline-block;
+  width: auto;
+  float: left;
+  border-radius: 20px;
+  font-size: .8em;
+  padding: 12px;
+  background-color: rgb(226 116 81);
+  color: white;
+  font-weight: bold;
+  bottom: 0;
+}
+
+input {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+}
+
+.searchtitle {
+  font-size: 20px;
+}
+
+.commentimg {
+  position: absolute;
+  margin-top: 33px;
+  width: 80%;
+  top: 0;
+  left: 0;
 }
 
 @keyframes App-logo-spin {

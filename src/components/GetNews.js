@@ -3,6 +3,8 @@ import ReactSVG from 'react-svg'
 import $ from 'jquery'
 import comment from './comment.svg';
 
+import Search from './Search'
+
 //This includes what I would later like to refactor into being a card component
 
 
@@ -15,6 +17,7 @@ class GetNews extends Component {
   render() {
     return(
       <div>
+        <Search fetchNews={this.fetchNews} />
 
         {this.state.items.map(item =>
           <a href={item.url}>
@@ -41,20 +44,25 @@ class GetNews extends Component {
 
 
 
-  //Worked on the search item last - decided to make an if statement that checks if the form target value exists yet to then narrow the search
+  //I worked on the search item last - decided to make an if statement that checks if the form target value exists yet to then narrow the search
 
-  fetchNews = () => {
-    $.ajax({
-      url: 'https://node-hnapi.herokuapp.com/news?title'
-    }).done(function(json){
-    }).then(json => {
-      this.setState({ items: json.map( item => item) })
-    })
-  }
+  //I worked on this for hours and never got to the point I could narrow trhe search - mainlyt because I need a bit more practice with React state and forms.
+  //I will continue to work on it after this assignment is turned in. This needs to work!
+  fetchNews = (query = "") => {
+
+      $.ajax({
+          url: `http://hn.algolia.com/api/v1/search?query=${query}`
+        }).then(json => {
+          this.setState({ items: json.hits.map( item => item) })
+        })
+
+    }
+
 
   componentDidMount() {
     this.fetchNews()
   }
+
 }
 
 export default GetNews

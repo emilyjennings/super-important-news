@@ -4,7 +4,7 @@ This is a project I did using React to display some Hacker News items in a more 
 
 ### Background and message to LiveSafe
 
-When making this app, I had only started to learn React about a month beforehand. I had yet to make a complete React app of my own yet, so this is my first React app from scratch. Since I was given an assignment in Angular which I had never seen before, I spent a few hours looking at the assignment and its file structure, syntax, reading Angular documentation - and came to terms with the fact that I would not be able to complete the assignment without ample time to learn Angular from scratch (which I am excited to do, but not in this context where a quick turnaround is necessary). I then decided that the best thing I could turn out was this React version I built from scratch. It's by no means perfect, but I had fun learning by doing it, and using my CSS styling skills to make it look nice. 
+When making this app, I had only started to learn React about a month beforehand. I had yet to make a complete React app of my own yet, so this is my first React app from scratch. Since I was given an assignment in Angular which I had never seen before, I spent a few hours looking at the assignment and its file structure, syntax, reading Angular documentation - and came to terms with the fact that I would not be able to complete the assignment without ample time to learn Angular from scratch (which I am excited to do, but not in this context where a quick turnaround is necessary). I then decided that the best thing I could turn out was this React version I built from scratch. It's by no means perfect, but I had fun learning by doing it, and using my CSS styling skills to make it look nice.
 
 ### Main goals:
 
@@ -14,7 +14,7 @@ When making this app, I had only started to learn React about a month beforehand
 
 3.) Write a test that determines if the search field was written properly, if there's time.
 
-### Planning:
+### Planning and What I'd Do With More Time:
 
 March 2, 2019 - First, make a react app with a component that calls the Hacker News API, makes a get request, and returns the results I need.
 
@@ -28,6 +28,12 @@ What I'll need to research/look up:
 How others have called the Hacker News API before using React. Should I use fetch or axios to call it?
 How others have created a dynamic search feature in React.
 Other examples of React Hacker News apps open source to see how they put it together.
+
+March 3, 2019 - I worked on the styling of the cards and started trying the search bar. I tried many things by reading documentation and projects/questions others have written, but I just needed more time.
+
+I believe that I needed more knowledge and practice with React props. I think this week I'll make the search bar that narrows the results by typing, but I wasn't able to do it yet. I know it would involve a conditional that checks if the value in the search bar exists and uses that to call the api at http://hn.algolia.com/api/v1/search?query=
+
+With more time, I'd also research how tests are written in React - I've seen them in JavaScript before - and write a test to see if the search feature works.
 
 ### Problems Encountered and Solutions
 
